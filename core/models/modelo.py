@@ -8,7 +8,7 @@ class Modelo(models.Model):
     categoria = models.ForeignKey(Categoria, on_delete=models.RESTRICT)
 
     def __str__(self):
-        return f"{self.name}, ({self.id}), {self.marca}"
+        return f"{self.name.upper()} ({self.id}) {self.marca}"
     
     class Meta:
         verbose_name = "Modelo"

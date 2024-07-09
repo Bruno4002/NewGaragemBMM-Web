@@ -8,6 +8,6 @@ class Acessorio(models.Model):
         return self.descricao
 
 class Meta:
-    verbose_name = "Acessorio"
-    verbose_name_plural = "Acessorios"
+    verbose_name = "Acessoório"
+    verbose_name_plural = "Acessórios"
   
